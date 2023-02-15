@@ -1,0 +1,16 @@
+.container-fluid>ul> li > a{
+    color:white;
+}
+.data{
+    color:white;
+}
+
+.card-hover{
+    transform: scale(1);
+    transition: all .5s;
+   
+}
+.card-hover:hover{
+    transform: scale(1.09); 
+    z-index: 1000;
+}
